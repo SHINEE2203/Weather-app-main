@@ -1,0 +1,125 @@
+body{
+    background-image: url('../Image/Bg.jpeg');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 25%;
+   
+   
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #root{
+    padding-top: 10%;
+  }
+  
+  .container {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0%;
+  
+    
+     
+  }
+  .form:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+    margin-top: 10px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    margin-left: 10px; /* Adjust as needed */
+}
+
+  
+  #heading {
+    text-align: center;
+   
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+   }
+ 
+  .field {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+  }
+  
+  .input-field {
+    gap: 0.5em;
+    border-radius: 25px;
+    width: 100%;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  
+  .button3 {
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 50%;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .button3:hover {
+    background-color: rgb(90, 129, 173);
+    color: white;
+  }
+  
+  button {
+    padding: 10%;
+  }
+  .desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .form {
+      padding-left: 1em;
+      padding-right: 1em;
+      width: 50%;
+    }
+        
+    .container {
+      width: 100%;
+     
+    }     
+    .button3 {
+      width: 80%;
+    }
+    
+    button {
+      padding: 5%;
+    }
+  }
+  
